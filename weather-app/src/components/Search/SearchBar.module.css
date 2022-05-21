@@ -1,0 +1,50 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search {
+    height: 45px;
+    margin-right: 20px;
+    border: thin solid #ffff00;
+    border-radius: 10px;
+    padding-left: 10px;
+    background-color: #1e2023;
+    color: #fff;
+}
+
+@media screen and (max-width: 600px) {
+    .search {
+        width: 70%;
+        height: 35px;
+        margin-right: 15px;
+    }
+
+    .btn {
+        display: none;
+    }
+}
+
+.search:focus,
+.search:active {
+    border: none;
+}
+
+.search::placeholder {
+    color: #fff;
+}
+
+.btn {
+    width: 40px;
+    height: 40px;
+    background-color: #21c400;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    font-size: 1.5rem;
+}
+
+.btn:hover {
+    background-color: #198803;
+}

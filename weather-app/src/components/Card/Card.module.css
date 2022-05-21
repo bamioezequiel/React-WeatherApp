@@ -1,0 +1,58 @@
+.card {
+    width: 25%;
+    height: 200px;
+    border: thin solid black;
+    margin: 3px;
+}
+
+@media screen and (max-width: 600px) {
+    .card {
+        width: 75%;
+    }
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    opacity: 80%;
+}
+
+.header h4 {
+    margin: 5px 10px;
+}
+
+.btn {
+    width: 30px;
+    border: none;
+    background-color: #f82a2a;
+    color: #fff;
+}
+
+.btn:hover {
+    background-color: #f01515;
+}
+
+.temp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.temp h4 {
+    margin-left: 10px;
+    font-size: 2.5rem;
+}
+
+.temp div {
+    display: flex;
+}
+
+.temp div p {
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 20px;
+}

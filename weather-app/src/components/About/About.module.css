@@ -1,0 +1,33 @@
+.container {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.title {
+    font-weight: bold;;
+}
+
+.description {
+    font-size: 1.2rem;
+    margin: 30px auto;
+}
+
+.social a img{
+    width: 65px;
+    margin: auto 20px;
+    transition: all ease 0.5s;
+}
+
+.social a img:hover{
+    /* opacity: 0.8; */
+    width: 75px;
+}
+
+.dev {
+  background: #fff700;
+  background: linear-gradient(to right, #ffee00, #eb0505);
+  background-clip: text;
+  color: transparent;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
